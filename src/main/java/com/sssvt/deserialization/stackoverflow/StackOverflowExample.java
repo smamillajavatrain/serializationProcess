@@ -21,6 +21,7 @@ public class StackOverflowExample {
         System.out.println(bomb().length);
         deserialize(bomb());  // throws StackOverflow
         System.out.println("Done");
+        System.out.println("Bharagav");
     }
 
     @SuppressWarnings({ "rawtypes", "unchecked" })
